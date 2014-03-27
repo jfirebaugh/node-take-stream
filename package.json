@@ -1,6 +1,6 @@
 {
   "name": "take-stream",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A transform stream that passes through the first n elements and discards the rest",
   "repository": {
     "type": "git",
