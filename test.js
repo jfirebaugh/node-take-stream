@@ -65,7 +65,8 @@ test('produces end immediately if n = 0', function (t) {
 
 test('produces backpressure', function (t) {
     var take = Take(1);
-    take.write(1); // Should return true but https://github.com/joyent/node/issues/7364
+    assert.equal(take.write(1), true);
+    take.write(1); // Should return false but we have to workaround https://github.com/joyent/node/issues/7364
     assert.equal(take.write(1), false);
     t.end();
 });
