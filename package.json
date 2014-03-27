@@ -2,6 +2,10 @@
   "name": "take-stream",
   "version": "0.0.0",
   "description": "A transform stream that passes through the first n elements and discards the rest",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jfirebaugh/node-take-stream.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
