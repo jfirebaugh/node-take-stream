@@ -5,7 +5,7 @@ A transform stream that passes through the first n elements and discards the res
 Outputs `[1, 2, 3, 4, 5]`:
 
 ```js
-var Take = require('stream-take'),
+var Take = require('take-stream'),
     five = Take(5),
     out = [];
 
