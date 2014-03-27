@@ -1,0 +1,19 @@
+{
+  "name": "take-stream",
+  "version": "0.0.0",
+  "description": "A transform stream that passes through the first n elements and discards the rest",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "streams",
+    "take",
+    "head"
+  ],
+  "author": "John Firebaugh <john@mapbox.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "2"
+  }
+}
